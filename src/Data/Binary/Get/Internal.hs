@@ -36,6 +36,8 @@ module Data.Binary.Get.Internal (
     , lookAheadM
     , lookAheadE
     , label
+    , runGetIncremental
+    , pushBack
 
     -- ** ByteStrings
     , getByteString
